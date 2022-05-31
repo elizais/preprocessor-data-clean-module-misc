@@ -1,0 +1,2 @@
+CREATE DATABASE timeseries;
+CREATE DATABASE data;
