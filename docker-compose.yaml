@@ -24,3 +24,9 @@ services:
     ports:
       - 14268:14268 # accept jaeger.thrift directly from clients
       - 16686:16686 # serve frontend
+  ##############################################################################
+  grafana:
+    image: grafana/grafana-enterprise:8.2.0
+    restart: "no"
+    ports:
+      - 3000:3000
